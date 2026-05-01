@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fff;
+}
+
+.table-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 43px;
+    font-weight: bold;
+    text-decoration: overline;
+    margin-bottom: 20px;
+}
+
+table {
+    margin-top: 25px;
+    width: 80%;
+    background-color: #fff;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: midnightblue;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #dfe6e9;
+}
